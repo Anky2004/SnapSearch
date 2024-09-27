@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapSearch</title>
+    <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <h1>Image gallery</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for images...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="imageGrid"></div>
+
+        <!-- Modal for showing detailed image view -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div id="modalCaption"></div>
+        </div>
+    </div>
+    <div class="share-buttons">
+        <h3>Share this image:</h3>
+        <a href="#" id="facebookShare" target="_blank">Share on Facebook</a>
+        <a href="#" id="twitterShare" target="_blank">Share on Twitter</a>
+        <a href="#" id="pinterestShare" target="_blank">Share on Pinterest</a>
+    </div>
+</div>
+
+<script src="script.js"></script> <!-- Link to your JavaScript file if needed -->
+</body>
+</html>
+
+
